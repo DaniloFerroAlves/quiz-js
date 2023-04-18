@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="js/script.js" defer></script>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 id="main-title">Quiz de programação</h1>
+    <!-- scoreboard -->
+
+    <div id="score-container" class="">
+        <h2>Parabéns!</h2>
+        <p id="display-score"><span>90</span>%</p>
+        <p>Você acertou <span id="correct-answer">0</span> de <span id="question-qtd">10 </span>perguntas</p>
+        <button id="restart">Refazer o quiz!</button>
+    </div>
+
+    <!-- quiz container -->
+    <div id="quiz-container">
+        <p id="question"><span id="question-number">1 </span><span id="question-text">- Qual é a unidade de medida para metros</span></p>
+        <div id="answer-box">
+            <button><span class="btn-letter">a</span> <span class="question-answer">m</span></button>
+            <button><span class="btn-letter">b</span> <span class="question-answer">mm</span></button>
+            <button><span class="btn-letter">c</span> <span class="question-answer">cm</span></button>
+            <button><span class="btn-letter">d</span> <span class="question-answer">km</span></button>
+        </div>
+    </div>
+
+    <!-- template resposta -->
+    <button class="answer-template hide"><span>a</span> <span id="question-answer">m</span></button>
+</body>
+</html>
