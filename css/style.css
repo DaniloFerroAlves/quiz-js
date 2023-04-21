@@ -139,7 +139,7 @@ body{
 }
 
 #quiz-container .correct-answer,
-#quiz-container .wrong-answer .btn-letter{
+#quiz-container .correct-answer .btn-letter{
     background-color: #40b576;
     color: #fff;
 }
